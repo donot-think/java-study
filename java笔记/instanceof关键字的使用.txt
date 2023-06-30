@@ -1,0 +1,5 @@
+防止出现异常报错通常会使用instanceof关键字的判断，一旦返回true，就进行向下转型。如果返回false，不进行向下转型。
+
+ a instanceof A:判断对象a是否是类A的实例。如果是，返回true，如果不是，返回false，部进行向下转型.
+
+如果a instanceof Afanhui true,则a instanceof B也返回true，其中，类B是类A的父类。
